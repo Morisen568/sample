@@ -1,3 +1,28 @@
-.test {
-  color: red;
+@import "color";
+@import "base";
+$r : red;
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+}
+
+h1 {
+  color: black;
+  @include flex
+}
+
+p {
+  color: $w;
+}
+
+ol {
+  color: $w;
+}
+
+b {
+  color: $r;
 }

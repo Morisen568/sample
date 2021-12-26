@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+p {
+  color: white;
+}
+
+b {
+  color: red;
+}
+
+ol {
+  color: white;
+}
